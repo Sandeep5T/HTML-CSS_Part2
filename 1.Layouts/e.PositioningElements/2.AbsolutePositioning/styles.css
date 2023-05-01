@@ -1,0 +1,38 @@
+body {
+  margin: 0.625rem;
+  height: 200vh;
+}
+
+.boxes {
+  border: 3px solid gray;
+  position: relative;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+}
+
+.box-one {
+  background: gold;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.box-two {
+  background: tomato;
+}
+
+.box-three {
+  background: blue;
+}
+
+.box-four {
+  position: fixed;
+  top: 0;
+  background: yellowgreen;
+  right: 2rem;
+  left: 2rem;
+  width: auto;
+}

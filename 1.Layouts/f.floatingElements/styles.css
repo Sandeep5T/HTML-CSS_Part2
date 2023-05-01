@@ -1,0 +1,30 @@
+body {
+  margin: 10px;
+}
+
+.tweet {
+  border: 2px solid gray;
+  overflow: auto; /*Dont use this dirty solution. Its just a hack*/
+}
+
+/* .tweet::after { */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.avatar {
+  background: gold;
+  width: 5rem;
+  height: 5rem;
+  /* float: right; */
+  float: left;
+  /* margin: 0 0.5rem; */
+  margin-right: 0.5rem;
+}
+
+.clear {
+  /* clear: left; */
+  clear: both;
+}
