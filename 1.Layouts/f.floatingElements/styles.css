@@ -3,28 +3,24 @@ body {
 }
 
 .tweet {
-  border: 2px solid gray;
-  overflow: auto; /*Dont use this dirty solution. Its just a hack*/
+  border: 3px solid lightgrey;
+  overflow: hidden;
 }
 
-/* .tweet::after { */
 .clearfix::after {
   content: "";
-  clear: both;
   display: block;
+  clear: both;
 }
 
 .avatar {
-  background: gold;
   width: 5rem;
   height: 5rem;
-  /* float: right; */
+  background: gold;
   float: left;
-  /* margin: 0 0.5rem; */
   margin-right: 0.5rem;
 }
 
 .clear {
-  /* clear: left; */
-  clear: both;
+  clear: left;
 }

@@ -3,34 +3,24 @@ body {
 }
 
 .container {
-  /* height: 100vh; */
+  border: 3px solid lightgrey;
   display: flex;
   flex-direction: row;
-  border: 3px solid lightgray;
   justify-content: center;
   align-items: center;
-  height: 90vh;
-  /* height:100%; */ /*Un comment this when there are many boxes that overflow from container of 90vh*/
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   align-content: center;
+  /* height: 90vh; */
+  height: 100%;
 }
-
-/* Using display:flex replaces the use of below class on containers*/
-/* .clearfix::after {
-  content: "";
-  clear: both;
-  display: block;
-} */
 
 .box {
   width: 5rem;
   height: 5rem;
   background: gold;
   margin: 1rem;
-  /* Using display:flex avoids setting the float as below*/
-  /* float:left */
 }
 
 .box-one {
-  align-self: flex-end;
+  /* align-self: flex-start; */
 }

@@ -3,7 +3,7 @@ body {
 }
 
 .boxes {
-  border: 3px solid gray;
+  border: 3px solid lightgrey;
 }
 
 .box {
@@ -19,12 +19,10 @@ body {
   background: tomato;
   position: relative;
   left: 4rem;
-  bottom: 4rem;
+  top: -4rem;
   z-index: -1;
 }
 
 .box-three {
-  background: blue;
-  position: relative;
-  bottom: 7rem;
+  background: dodgerblue;
 }

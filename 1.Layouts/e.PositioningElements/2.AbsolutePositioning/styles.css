@@ -4,7 +4,7 @@ body {
 }
 
 .boxes {
-  border: 3px solid gray;
+  border: 3px solid lightgrey;
   position: relative;
 }
 
@@ -15,23 +15,23 @@ body {
 
 .box-one {
   background: gold;
+}
+
+.box-two {
+  background: tomato;
   position: absolute;
   right: 0;
   bottom: 0;
 }
 
-.box-two {
-  background: tomato;
-}
-
 .box-three {
-  background: blue;
+  background: dodgerblue;
 }
 
 .box-four {
+  background: rgb(176, 39, 89);
   position: fixed;
   top: 0;
-  background: yellowgreen;
   right: 2rem;
   left: 2rem;
   width: auto;

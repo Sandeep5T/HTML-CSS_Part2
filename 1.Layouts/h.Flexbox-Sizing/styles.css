@@ -1,29 +1,32 @@
 body {
-  margin: 10px;
+  margin: 0.625rem;
 }
 
 .container {
-  border: 3px solid gray;
+  border: 3px solid lightgrey;
   display: flex;
+  flex-direction: row;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
+  height: 90vh;
+  /* height: 100%; */
   /* flex-wrap: wrap; */
-  align-content: center;
 }
 
 .box {
   flex-basis: 15rem;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex: 1 1 15rem;
+  /* flex-basis: 5rem; */
+  flex-shrink: 1; /*Default Value*/
   width: 5rem;
   height: 5rem;
   background: gold;
   margin: 1rem;
+  flex-grow: 1;
 }
 
 .box-one {
-  /* flex-basis: 15rem;
-  flex-grow: 2;*/
-  /* flex-shrink: 0; */
+  /* flex-basis: 5rem; */
+  /* flex-grow: 2; */
+  flex-shrink: 0;
 }
