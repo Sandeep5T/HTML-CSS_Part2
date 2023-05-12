@@ -1,0 +1,18 @@
+:root {
+  --color-primary: #ddff33;
+  --border-size: 2px;
+  --border-radius: 10px;
+}
+
+body {
+  margin: 10px;
+}
+
+.one {
+  /* background-color: #ddff33 */
+  background: var(--color-primary)
+}
+
+.two {
+  background-color: var(--color-primary);
+}

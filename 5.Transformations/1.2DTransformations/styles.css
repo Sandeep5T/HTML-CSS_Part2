@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: gold;
+  padding: 1rem;
+}
+
+.box:hover {
+  transform: rotate(90deg);
+  /* transform: rotate(-1deg); */
+  /* transform: scale(1.5); */
+  /* transform: scale(0.5); */
+  /* transform: skew(285deg) */
+  /*Positive value means tilt to the left*/
+  transform: skew(-50deg)
+    /*Negative value means tilt to the right*/
+  ;
+  transform: skewx(-50deg);
+  /*Skew x stretches the element along horizontal axis*/
+  transform: skewy(-50deg);
+  /*Skew y stretches the element along the vertical axis*/
+  transform: translate(50px, 50px) rotate(-45deg);
+  transform: translatex(50px);
+  transform: translatey(-50px);
+  transform: scaleY(1.5);
+  /* position: relative;
+  top: 100px; */
+  transform: skew(100deg)
+}
